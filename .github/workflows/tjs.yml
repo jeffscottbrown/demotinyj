@@ -1,3 +1,7 @@
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
     uses: jeffscottbrown/tinyjs/.github/workflows/compile.yml@main
