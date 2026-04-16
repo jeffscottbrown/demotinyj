@@ -7,5 +7,5 @@ jobs:
     uses: jeffscottbrown/tinyjs/.github/workflows/compile.yml@main
     with:
       glob: "src/**/*.tjs"
-      platforms: '["ubuntu-latest","macos-latest"]'
+      platforms: '["ubuntu-latest","macos-13","macos-latest"]'
       emit_ir: true
